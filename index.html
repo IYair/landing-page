@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Elvia</title>
+  </head>
+  <body>
+    <header>
+      <!-- Contenido del encabezado de la página -->
+      <nav class="bg-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="flex items-center justify-between h-16">
+            <div class="flex items-center">
+              <div class="hidden md:block">
+                <div class="ml-10 flex items-baseline space-x-4">
+                  <a href="#" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Inicio</a>
+                  <a href="#" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Acerca de</a>
+                  <a href="#" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Servicios</a>
+                  <a href="#" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contacto</a>
+                </div>
+              </div>
+            </div>
+            <div class="md:hidden">
+              <button type="button" class="text-gray-300 hover:text-white focus:outline-none focus:text-white" aria-label="Toggle menu">
+                <svg class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="md:hidden hidden">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+              <a href="#" class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Inicio</a>
+              <a href="#" class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Acerca de</a>
+              <a href="#" class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Servicios</a>
+              <a href="#" class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Contacto</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      
+    </header>
+
+    <main>
+      <section class="bg-gray-100 py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div
+            class="bg-cover bg-center text-white px-4 py-6 rounded-lg mb-8"
+            style="background-image: url('assets/page\ \(7\).jpg')"
+          >
+            <h2 class="text-2xl font-semibold mb-2">¡Oferta especial!</h2>
+            <p class="text-lg mb-4">
+              Obtén un descuento del 20% en todos nuestros servicios hasta fin
+              de mes.
+            </p>
+            <a
+              href="#"
+              class="inline-block bg-white text-blue-500 px-4 py-2 rounded-md font-semibold"
+              >Ver servicios</a
+            >
+          </div>
+          <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="hero-image mb-8">
+              <img
+                src="/assets/page (8).jpg"
+                alt="Hero Image"
+                class="w-full h-auto"
+              />
+            </div>
+            <div class="text-center">
+              <h1 class="text-4xl font-extrabold text-gray-800">
+                ¡Descubre nuestros servicios!
+              </h1>
+              <p class="mt-4 text-lg text-gray-600">
+                En nuestra empresa ofrecemos una amplia gama de servicios
+                diseñados para satisfacer tus necesidades.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-12"
+          >
+            <div class="bg-white rounded-lg shadow-md p-8">
+              <img
+                src="/assets/page (5).jpg"
+                alt="Facturación"
+                class="mx-auto h-32"
+              />
+              <h2 class="mt-4 text-xl font-bold text-gray-800">Facturación</h2>
+              <p class="mt-2 text-gray-600">
+                Nuestro equipo de expertos se encargará de gestionar tu
+                facturación de forma eficiente y precisa. Nos aseguramos de que
+                tus facturas cumplan con todos los requisitos legales y
+                fiscales.
+              </p>
+              <a
+                href="#"
+                class="mt-4 inline-block px-6 py-2 bg-blue-500 text-white rounded-md font-bold"
+                >Más información</a
+              >
+            </div>
+
+            <div class="bg-white rounded-lg shadow-md p-8">
+              <img
+                src="/assets/page (6).jpg"
+                alt="Contabilidad"
+                class="mx-auto h-32"
+              />
+              <h2 class="mt-4 text-xl font-bold text-gray-800">Contabilidad</h2>
+              <p class="mt-2 text-gray-600">
+                Ofrecemos servicios de contabilidad completos para tu negocio.
+                Nuestro equipo de contadores expertos se encargará de mantener
+                tus registros financieros actualizados y te proporcionará
+                informes financieros precisos y oportunos.
+              </p>
+              <a
+                href="#"
+                class="mt-4 inline-block px-6 py-2 bg-blue-500 text-white rounded-md font-bold"
+                >Más información</a
+              >
+            </div>
+
+            <div class="bg-white rounded-lg shadow-md p-8">
+              <img
+                src="/assets/page (2).jpg"
+                alt="Asesoría"
+                class="mx-auto h-32"
+              />
+              <h2 class="mt-4 text-xl font-bold text-gray-800">Asesoría</h2>
+              <p class="mt-2 text-gray-600">
+                Te ofrecemos asesoría personalizada en materia fiscal y
+                contable. Nuestros expertos te guiarán en la toma de decisiones
+                financieras y te ayudarán a optimizar tus recursos económicos.
+              </p>
+              <a
+                href="#"
+                class="mt-4 inline-block px-6 py-2 bg-blue-500 text-white rounded-md font-bold"
+                >Más información</a
+              >
+            </div>
+          </div>
+          <div class="mt-12">
+            <h2 class="text-3xl font-semibold mb-4">Testimonios</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+              <div class="bg-white rounded-lg shadow-md p-8">
+                <p class="text-gray-800 text-lg mb-4">
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Donec ac lorem at diam faucibus aliquam. Pellentesque habitant
+                  morbi tristique senectus et netus et malesuada fames ac turpis
+                  egestas."
+                </p>
+                <p class="text-gray-600">- John Doe</p>
+              </div>
+
+              <div class="bg-white rounded-lg shadow-md p-8">
+                <p class="text-gray-800 text-lg mb-4">
+                  "Nullam gravida odio id ligula dictum, sed facilisis justo
+                  ultrices. Sed tempus, turpis eget aliquam lobortis, odio
+                  turpis pharetra nisi, at dapibus lacus arcu vitae erat."
+                </p>
+                <p class="text-gray-600">- Jane Smith</p>
+              </div>
+
+              <div class="bg-white rounded-lg shadow-md p-8">
+                <p class="text-gray-800 text-lg mb-4">
+                  "Duis id sem efficitur, pellentesque risus vitae, cursus
+                  lectus. In hac habitasse platea dictumst. Sed fringilla libero
+                  a nulla dignissim, eget euismod sem egestas."
+                </p>
+                <p class="text-gray-600">- David Johnson</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-gray-800 py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="text-center">
+            <h2 class="text-3xl font-extrabold text-white">
+              ¡Contáctanos hoy mismo!
+            </h2>
+            <p class="mt-4 text-lg text-gray-300">
+              Descubre cómo nuestros servicios financieros pueden beneficiar a
+              tu negocio.
+            </p>
+          </div>
+
+          <div class="flex justify-center mt-10">
+            <div
+              class="max-w-3xl grid grid-cols-1 lg:grid-cols-2 gap-6"
+            >
+            <div class="bg-white p-6 rounded-lg shadow-md">
+              <img src="/assets/page (1).jpg" alt="Imagen 1" class="mx-auto h-48 w-full object-cover" />
+              <h3 class="text-xl font-semibold text-gray-800">Facturación Electrónica</h3>
+              <p class="mt-2 text-gray-600">Gestión eficiente de facturas electrónicas para tu negocio.</p>
+              <a href="#" class="mt-4 inline-block px-6 py-2 bg-blue-500 text-white rounded-md font-bold">Contactar</a>
+            </div>
+
+              <div class="bg-white p-6 rounded-lg shadow-md">
+                <img src="/assets/page (2).jpg" alt="Imagen 2" class="mx-auto h-48" />
+                <h3 class="text-xl font-semibold text-gray-800">
+                  Contabilidad Profesional
+                </h3>
+                <p class="mt-2 text-gray-600">
+                  Servicios de contabilidad confiables y precisos para tu
+                  negocio.
+                </p>
+                <a
+                  href="#"
+                  class="mt-4 inline-block px-6 py-2 bg-blue-500 text-white rounded-md font-bold"
+                  >Contactar</a
+                >
+              </div>
+
+              <div class="bg-white p-6 rounded-lg shadow-md">
+                <img src="/assets/page (7).jpg" alt="Imagen 3" class="mx-auto h-48" />
+                <h3 class="text-xl font-semibold text-gray-800">
+                  Asesoría Financiera
+                </h3>
+                <p class="mt-2 text-gray-600">
+                  Asesoramiento experto en planificación financiera y gestión de
+                  inversiones.
+                </p>
+                <a
+                  href="#"
+                  class="mt-4 inline-block px-6 py-2 bg-blue-500 text-white rounded-md font-bold"
+                  >Contactar</a
+                >
+              </div>
+
+              <div class="bg-white p-6 rounded-lg shadow-md">
+                <img src="/assets/page (10).jpg" alt="Imagen 4" class="mx-auto h-48" />
+                <h3 class="text-xl font-semibold text-gray-800">
+                  Auditoría de Cuentas
+                </h3>
+                <p class="mt-2 text-gray-600">
+                  Revisiones exhaustivas de cuentas y análisis financiero
+                  detallado.
+                </p>
+                <a
+                  href="#"
+                  class="mt-4 inline-block px-6 py-2 bg-blue-500 text-white rounded-md font-bold"
+                  >Contactar</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-gray-100 py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="text-center">
+            <h2 class="text-3xl font-extrabold text-gray-800">
+              Preguntas Frecuentes
+            </h2>
+            <p class="mt-4 text-lg text-gray-600">
+              Aquí encontrarás respuestas a las preguntas más comunes sobre
+              nuestros servicios.
+            </p>
+          </div>
+
+          <div class="mt-12">
+            <div class="accordion">
+              <div class="accordion-item">
+                <h3 class="accordion-title">
+                  ¿Cuáles son los métodos de pago aceptados?
+                </h3>
+                <div class="accordion-content">
+                  <p>
+                    Aceptamos pagos con tarjeta de crédito, transferencia
+                    bancaria y PayPal.
+                  </p>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h3 class="accordion-title">
+                  ¿Cuál es el plazo de entrega de los servicios de facturación?
+                </h3>
+                <div class="accordion-content">
+                  <p>
+                    El plazo de entrega de nuestros servicios de facturación
+                    depende de la complejidad del proyecto, pero generalmente
+                    oscila entre 3 y 7 días hábiles.
+                  </p>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h3 class="accordion-title">
+                  ¿Ofrecen servicios de contabilidad para empresas pequeñas?
+                </h3>
+                <div class="accordion-content">
+                  <p>
+                    Sí, nuestros servicios de contabilidad están diseñados para
+                    adaptarse a las necesidades de empresas de todos los
+                    tamaños, incluyendo empresas pequeñas y emprendedores
+                    individuales.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-gray-800 py-8">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+          <div>
+            <h3 class="text-lg font-semibold text-white">Contacto</h3>
+            <ul class="mt-4">
+              <li>
+                <a href="tel:+123456789" class="text-gray-300 hover:text-white"
+                  >Teléfono: +12 345 6789</a
+                >
+              </li>
+              <li>
+                <a
+                  href="mailto:info@example.com"
+                  class="text-gray-300 hover:text-white"
+                  >Email: info@example.com</a
+                >
+              </li>
+              <li>
+                <span class="text-gray-300"
+                  >Dirección: Calle Ejemplo, Ciudad, País</span
+                >
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-lg font-semibold text-white">Enlaces útiles</h3>
+            <ul class="mt-4">
+              <li>
+                <a href="#" class="text-gray-300 hover:text-white"
+                  >Preguntas frecuentes</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-gray-300 hover:text-white"
+                  >Términos y condiciones</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-gray-300 hover:text-white"
+                  >Política de privacidad</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-lg font-semibold text-white">Síguenos</h3>
+            <ul class="mt-4">
+              <li>
+                <a href="#" class="text-gray-300 hover:text-white">Facebook</a>
+              </li>
+              <li>
+                <a href="#" class="text-gray-300 hover:text-white">Twitter</a>
+              </li>
+              <li>
+                <a href="#" class="text-gray-300 hover:text-white">Instagram</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="mt-8">
+          <p class="text-center text-gray-300">
+            &copy; 2023 Nombre de la Empresa. Todos los derechos reservados.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      const mobileMenuButton = document.getElementById('mobile-menu-button');
+      const mobileMenu = document.getElementById('mobile-menu');
+    
+      mobileMenuButton.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+      });
+    </script>
+    <!-- Archivo JavaScript externo -->
+  </body>
+</html>
